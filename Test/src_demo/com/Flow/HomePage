@@ -1,0 +1,17 @@
+package com.Flow;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class HomePage{
+    private WebElement txtUsername = DriverManager.getDriver().findElement(By.xpath(""));
+    private WebElement txtPassword = DriverManager.getDriver().findElement(By.xpath(""));
+    private WebElement btnLogin = DriverManager.getDriver().findElement(By.xpath(""));
+
+    public HomePage login(String username, String password) {
+        txtUsername.sendKeys(username);
+        txtPassword.sendKeys(password);
+        btnLogin.click();
+        return this;
+    }
+}

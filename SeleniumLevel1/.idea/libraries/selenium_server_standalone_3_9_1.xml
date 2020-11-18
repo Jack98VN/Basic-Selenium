@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="selenium-server-standalone-3.9.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Selenium/selenium-server-standalone-3.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Selenium/selenium-3.9.1-nodeps.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Selenium/junit-4.13.1.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Selenium" />
+      <root url="file://$USER_HOME$/Downloads/Selenium/TestNG" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Selenium/selenium-3.9.1-nodeps-sources.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Selenium" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/Selenium" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/Selenium/TestNG" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/Selenium" recursive="false" type="SOURCES" />
+  </library>
+</component>
